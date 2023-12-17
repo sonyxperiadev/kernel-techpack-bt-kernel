@@ -1,3 +1,5 @@
+BT_ROOT := $(srctree)/techpack/bt
+
 ccflags-y += -I$(BT_ROOT)/include
 ccflags-y += -I$(BT_ROOT)/../wlan/platform/inc
 ccflags-y += -I$(BT_ROOT)/../wlan/platform/cnss_utils
